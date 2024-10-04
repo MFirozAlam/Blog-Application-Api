@@ -33,6 +33,7 @@ public class AuthController {
         return "User registered successfully!";
     }
 
+    //login function
     @PostMapping("/login")
     public String createToken(@RequestBody AuthRequest authRequest) throws Exception {
         try {
